@@ -51,6 +51,7 @@
     "@loopback/rest": "^5.2.1",
     "@loopback/rest-explorer": "^2.2.7",
     "@loopback/service-proxy": "^2.3.5",
+    "loopback-connector-mysql": "^5.4.4",
     "tslib": "^2.0.0"
   },
   "devDependencies": {
