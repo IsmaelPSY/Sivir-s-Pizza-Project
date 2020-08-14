@@ -1,0 +1,9 @@
+.addPromo{
+    background-color: brown;
+    padding:15px ;
+    position: relative;
+}
+
+.displayPromo{
+    background-color:blueviolet;
+}
