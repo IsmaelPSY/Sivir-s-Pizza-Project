@@ -2,6 +2,7 @@ import React from 'react';
 import '../assets/css/Producto.css';
 import Button from 'react-bootstrap/Button'
 
+import DisplayProducto from './DisplayProducto';
 import AddProducto from './AddProducto';
 
 class Producto extends React.Component{
@@ -9,12 +10,12 @@ class Producto extends React.Component{
     render(){
         return(
                 <React.Fragment>
-                <div>
+                <div className="producto">
                     <div className="addProducto">
-                    <Button variant="dark">Agregar Producto</Button>{' '}
+                        <AddProducto />
                     </div>
                     <div className="displayProducto">
-                        <AddProducto />
+                        <DisplayProducto />
                     </div>
                     </div>
                 </React.Fragment>

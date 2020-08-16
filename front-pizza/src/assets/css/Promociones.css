@@ -1,9 +1,11 @@
 .addPromo{
-    background-color: brown;
-    padding:15px ;
-    position: relative;
+   margin-bottom: 50px;
 }
 
 .displayPromo{
-    background-color:blueviolet;
+    
+}
+
+.promociones{
+    margin: 50px;
 }

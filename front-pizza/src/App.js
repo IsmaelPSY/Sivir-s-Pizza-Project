@@ -12,16 +12,9 @@ import Col from 'react-bootstrap/Col';
 import Promociones from './components/Promociones';
 import Producto from './components/Producto';
 import Cliente from './components/Cliente';
-import Pedido from './components/Pedido'
+import Pedido from './components/Pedido';
+import Home from './components/Home';
 
-/*
-<section className="componentes">
-        <Promociones />
-        <Producto />
-        <Cliente />
-        <Pedido />
-      </section>  
-*/
 
 function App() {
    
@@ -52,19 +45,19 @@ function App() {
     <Col sm={9}>
       <Tab.Content>
         <Tab.Pane eventKey="home">
-          <h1>home</h1>
+            <Home />
         </Tab.Pane>
         <Tab.Pane eventKey="cliente">
-          <h1>cliente</h1>
+            <Cliente />
         </Tab.Pane>
         <Tab.Pane eventKey="pedido">
-          <h1>pedido</h1>
+            <Pedido />
         </Tab.Pane>
         <Tab.Pane eventKey="producto">
-          <h1>producto</h1>
+            <Producto />
         </Tab.Pane>
         <Tab.Pane eventKey="promociones">
-          <h1>promociones</h1>
+            <Promociones />
         </Tab.Pane>
       </Tab.Content>
     </Col>
@@ -76,3 +69,6 @@ function App() {
 }
 
 export default App;
+
+
+
