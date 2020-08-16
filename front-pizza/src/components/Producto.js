@@ -1,12 +1,22 @@
 import React from 'react';
 import '../assets/css/Producto.css';
+import Button from 'react-bootstrap/Button'
+
+import AddProducto from './AddProducto';
 
 class Producto extends React.Component{
 
     render(){
         return(
                 <React.Fragment>
-                    <h1>Producto</h1>
+                <div>
+                    <div className="addProducto">
+                    <Button variant="dark">Agregar Producto</Button>{' '}
+                    </div>
+                    <div className="displayProducto">
+                        <AddProducto />
+                    </div>
+                    </div>
                 </React.Fragment>
         );
     }

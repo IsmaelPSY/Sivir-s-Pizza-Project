@@ -1,5 +1,8 @@
 import React from 'react';
 import '../assets/css/Cliente.css';
+import Button from 'react-bootstrap/Button';
+
+import AddCliente from './AddCliente';
 
 class Cliente extends React.Component{
 
@@ -26,14 +29,13 @@ class Cliente extends React.Component{
 
         return(
             <React.Fragment>
-                    <h1 className="Cliente">{n} tiene {e}</h1>
-                    <h2  style={this.styles} >{a}{b}{rest}</h2>
                     <div>
-                        <h1 className='text-success'>Ejemplo</h1>
+                    <div className="addCliente">
+                    <Button variant="dark">Agregar Cliente</Button>{' '}
                     </div>
-
-                    <div className = {this.getResultClass()}>
-                        Arreglo Personas
+                    <div className="displayCliente">
+                        <AddCliente />
+                    </div>
                     </div>
             </React.Fragment>
        );

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/css/Promociones.css';
-import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button';
 
 import AddPromociones from './AddPromociones';
 

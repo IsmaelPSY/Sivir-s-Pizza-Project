@@ -1,6 +1,12 @@
 import React from 'react';
 import './assets/css/App.css';
 
+import Tab from 'react-bootstrap/Tab';
+import Nav from 'react-bootstrap/Nav';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
+
 //Importar Componentes
 
 import Promociones from './components/Promociones';
@@ -21,24 +27,49 @@ function App() {
    
   return (
     <div className="App">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">SIVIR'S PIZZA</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#">Cliente</a>
-      <a class="nav-item nav-link" href="#">Pedidos</a>
-      <a class="nav-item nav-link" href="#">Producto</a>
-      <a class="nav-item nav-link" href="#">Promociones</a>
-    </div>
-  </div>
-</nav>
-    <section>
-      <Promociones />
-    </section>
+       
+       <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+  <Row>
+    <Col sm={3}>
+      <Nav variant="pills" className="flex-column">
+        <Nav.Item>
+          <Nav.Link eventKey="home">Sivir's Pizza</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="cliente">Cliente</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="pedido">Pedido</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="producto">Producto</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="promociones">Promociones</Nav.Link>
+        </Nav.Item>
+      </Nav>
+    </Col>
+    <Col sm={9}>
+      <Tab.Content>
+        <Tab.Pane eventKey="home">
+          <h1>home</h1>
+        </Tab.Pane>
+        <Tab.Pane eventKey="cliente">
+          <h1>cliente</h1>
+        </Tab.Pane>
+        <Tab.Pane eventKey="pedido">
+          <h1>pedido</h1>
+        </Tab.Pane>
+        <Tab.Pane eventKey="producto">
+          <h1>producto</h1>
+        </Tab.Pane>
+        <Tab.Pane eventKey="promociones">
+          <h1>promociones</h1>
+        </Tab.Pane>
+      </Tab.Content>
+    </Col>
+  </Row>
+</Tab.Container>
 
     </div>
   );
