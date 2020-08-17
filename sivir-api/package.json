@@ -1,7 +1,7 @@
 {
   "name": "sivir-api",
   "version": "1.0.0",
-  "description": "Sivir s Pizza Project",
+  "description": "Proyecto UNAMAD ADS2 software para una pizzeria",
   "keywords": [
     "loopback-application",
     "loopback"
@@ -45,22 +45,21 @@
     "!*/__tests__"
   ],
   "dependencies": {
-    "@loopback/boot": "^2.4.0",
-    "@loopback/core": "^2.9.2",
-    "@loopback/repository": "^2.10.0",
-    "@loopback/rest": "^5.2.1",
-    "@loopback/rest-explorer": "^2.2.7",
-    "@loopback/service-proxy": "^2.3.5",
-    "loopback-connector-mysql": "^5.4.4",
+    "@loopback/boot": "^2.4.1",
+    "@loopback/core": "^2.9.3",
+    "@loopback/repository": "^2.11.0",
+    "@loopback/rest": "^6.0.0",
+    "@loopback/rest-explorer": "^2.2.8",
+    "@loopback/service-proxy": "^2.3.6",
     "tslib": "^2.0.0"
   },
   "devDependencies": {
-    "@loopback/build": "^6.1.1",
+    "@loopback/build": "^6.2.0",
     "source-map-support": "^0.5.19",
-    "@loopback/testlab": "^3.2.1",
-    "@types/node": "^10.17.27",
-    "@loopback/eslint-config": "^8.0.4",
-    "eslint": "^7.5.0",
+    "@loopback/testlab": "^3.2.2",
+    "@types/node": "^10.17.28",
+    "@loopback/eslint-config": "^9.0.0",
+    "eslint": "^7.6.0",
     "typescript": "~3.9.7"
   }
 }
