@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/css/Producto.css';
+import '../../assets/css/Producto.css';
 import Button from 'react-bootstrap/Button';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import FormControl from 'react-bootstrap/FormControl';

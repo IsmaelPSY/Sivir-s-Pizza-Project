@@ -1,11 +1,11 @@
 import React from 'react';
-import '../assets/css/Promociones.css';
+import '../../assets/css/Producto.css';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container'
 
-class DisplayPromociones extends React.Component{
+class DisplayProducto extends React.Component{
 
     render(){
         return(
@@ -21,4 +21,4 @@ class DisplayPromociones extends React.Component{
     }
 }
 
-export default DisplayPromociones;
+export default DisplayProducto;

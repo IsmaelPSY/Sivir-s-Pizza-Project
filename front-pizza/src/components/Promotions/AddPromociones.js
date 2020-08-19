@@ -1,15 +1,14 @@
 import React from 'react';
-import '../assets/css/Cliente.css';
+import '../../assets/css/Promociones.css';
 import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal'
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import FormControl from 'react-bootstrap/FormControl';
 import Form from 'react-bootstrap/Form';
+import Modal from 'react-bootstrap/Modal'
 import InputGroup from 'react-bootstrap/InputGroup';
 import Col from 'react-bootstrap/Col';
 
-
-function AddCliente() {
+function AddPromociones() {
     const [validated, setValidated] = React.useState(false);
 
     const handleSubmit = (event) => {
@@ -32,7 +31,7 @@ function AddCliente() {
     <ButtonToolbar className="justify-content-between">
     <>
         <Button variant="primary" onClick={handleShow}>
-          Nuevo Cliente
+          Nueva Promoción
         </Button>
   
         <Modal show={show} onHide={handleClose} animation={true} centered>
@@ -123,17 +122,10 @@ function AddCliente() {
         </Modal.Body>
           
         </Modal>
-
-        <Form inline>
-                <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                <Button variant="outline-success">Buscar</Button>
-        </Form>
       </>                           
     </ButtonToolbar>
       
     );
 }
 
-export default AddCliente;
-
-
+export default AddPromociones;

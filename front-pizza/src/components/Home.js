@@ -9,18 +9,16 @@ import logo from '../assets/images/Logo.png';
 
 class Home extends React.Component{
 
-    render(){
-        return(
-                <React.Fragment >
-                    <h1 class="text-center display-1">BIENVENIDO INVOCADOR</h1>
-                
-                <Container>
-                    <Image className="logoSivir" src={logo}/>
-                </Container>
-                
-                </React.Fragment>
-        );
-    }
+  render(){
+    return(
+      <React.Fragment >
+        <h1 class="text-center display-1">BIENVENIDO INVOCADOR</h1>
+        <Container>
+          <Image className="logoSivir" src={logo}/>
+        </Container>
+      </React.Fragment>
+    );
+  }
 
 }
 
