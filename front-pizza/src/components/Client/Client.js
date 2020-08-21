@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/css/Cliente.css';
+import '../../assets/css/Client.css';
 
 import AddClient from './AddClient'; 
 import DisplayClient from './DisplayClient';

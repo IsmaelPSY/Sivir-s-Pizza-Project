@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/css/Cliente.css';
+import '../../assets/css/Client.css';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal'
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
