@@ -1,22 +1,22 @@
 import React from 'react';
 import '../../assets/css/Pedido.css';
 
-import AddPedido from './AddPedido';
-import DisplayPedido from './DisplayPedido';
+import AddOrder from './AddOrder';
+import DisplayOrder from './DisplayOrder';
 
-class Pedido extends React.Component{
+class Order extends React.Component{
 
     render(){
         return(
                 <React.Fragment>
                    <div className="cliente">
                     <div className="addCliente">
-                        <AddPedido />
+                        <AddOrder />
                     </div>
 
 
                     <div className="displayCliente">
-                        <DisplayPedido />
+                        <DisplayOrder />
                     </div>
                     </div>
                 </React.Fragment>
@@ -25,4 +25,4 @@ class Pedido extends React.Component{
 
 }
 
-export default Pedido;
+export default Order;

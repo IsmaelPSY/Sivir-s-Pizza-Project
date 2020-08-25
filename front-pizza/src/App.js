@@ -9,10 +9,10 @@ import Col from 'react-bootstrap/Col';
 
 //Importar Componentes
 
-import Promociones from './components/Promotions/Promociones';
-import Producto from './components/Product/Producto';
+import Promotions from './components/Promotions/Promotions';
+import Product from './components/Product/Product';
 import Client from './components/Client/Client';
-import Pedido from './components/Order/Pedido';
+import Order from './components/Order/Order';
 import Home from './components/Home';
 
 
@@ -49,13 +49,13 @@ function App() {
                 <Client />
               </Tab.Pane>
               <Tab.Pane eventKey="pedido">
-                <Pedido />
+                <Order />
               </Tab.Pane>
               <Tab.Pane eventKey="producto">
-                <Producto />
+                <Product />
               </Tab.Pane>
               <Tab.Pane eventKey="promociones">
-                <Promociones />
+                <Promotions />
               </Tab.Pane>
             </Tab.Content>
           </Col>
