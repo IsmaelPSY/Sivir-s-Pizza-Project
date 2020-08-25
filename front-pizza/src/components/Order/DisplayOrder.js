@@ -1,8 +1,8 @@
 import React from 'react';
-import '../../assets/css/Pedido.css';
+import '../../assets/css/Order.css';
 import Table from 'react-bootstrap/Table';
 
-class DisplayPedido extends React.Component {
+class DisplayOrder extends React.Component {
 
   render(){
     return(
@@ -42,4 +42,4 @@ class DisplayPedido extends React.Component {
   }
 }
 
-export default DisplayPedido;
+export default DisplayOrder;

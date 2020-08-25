@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/css/Producto.css';
+import '../../assets/css/Product.css';
 import Button from 'react-bootstrap/Button'
 
 import DisplayProduct from './DisplayProduct';

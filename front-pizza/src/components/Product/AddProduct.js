@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/css/Producto.css';
+import '../../assets/css/Product.css';
 import Button from 'react-bootstrap/Button';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import FormControl from 'react-bootstrap/FormControl';
@@ -8,7 +8,7 @@ import Modal from 'react-bootstrap/Modal'
 import InputGroup from 'react-bootstrap/InputGroup';
 import Col from 'react-bootstrap/Col';
 
-function AddProducto() {
+function AddProduct() {
     const [validated, setValidated] = React.useState(false);
 
     const handleSubmit = (event) => {
@@ -133,4 +133,4 @@ function AddProducto() {
     );
 }
 
-export default AddProducto;
+export default AddProduct;

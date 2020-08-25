@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/css/Pedido.css';
+import '../../assets/css/Order.css';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal'
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
@@ -9,7 +9,7 @@ import InputGroup from 'react-bootstrap/InputGroup';
 import Col from 'react-bootstrap/Col';
 
 
-function AddPedido() {
+function AddOrder() {
     const [validated, setValidated] = React.useState(false);
 
     const handleSubmit = (event) => {
@@ -134,4 +134,4 @@ function AddPedido() {
     );
 }
 
-export default AddPedido;
+export default AddOrder;

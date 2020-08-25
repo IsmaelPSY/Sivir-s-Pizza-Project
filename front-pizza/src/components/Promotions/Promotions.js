@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/css/Promociones.css';
+import '../../assets/css/Promotions.css';
 
 import DisplayPromotions from './DisplayPromotions';
 import AddPromotions from './AddPromotions'

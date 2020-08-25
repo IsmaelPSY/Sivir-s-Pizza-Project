@@ -1,11 +1,11 @@
 import React from 'react';
-import '../../assets/css/Producto.css';
+import '../../assets/css/Product.css';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container'
 
-class DisplayProducto extends React.Component{
+class DisplayProduct extends React.Component{
 
     render(){
         return(
@@ -21,4 +21,4 @@ class DisplayProducto extends React.Component{
     }
 }
 
-export default DisplayProducto;
+export default DisplayProduct;

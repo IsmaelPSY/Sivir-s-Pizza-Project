@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/css/Promociones.css';
+import '../../assets/css/Promotions.css';
 import Button from 'react-bootstrap/Button';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import FormControl from 'react-bootstrap/FormControl';
@@ -8,7 +8,7 @@ import Modal from 'react-bootstrap/Modal'
 import InputGroup from 'react-bootstrap/InputGroup';
 import Col from 'react-bootstrap/Col';
 
-function AddPromociones() {
+function AddPromotions() {
     const [validated, setValidated] = React.useState(false);
 
     const handleSubmit = (event) => {
@@ -128,4 +128,4 @@ function AddPromociones() {
     );
 }
 
-export default AddPromociones;
+export default AddPromotions;

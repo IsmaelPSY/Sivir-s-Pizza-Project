@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/css/Pedido.css';
+import '../../assets/css/Order.css';
 
 import AddOrder from './AddOrder';
 import DisplayOrder from './DisplayOrder';
