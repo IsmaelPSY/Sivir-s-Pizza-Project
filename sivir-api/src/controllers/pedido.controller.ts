@@ -119,7 +119,7 @@ export class PedidoController {
     },
   })
   async findById(
-    @param.path.number('id') id: number,
+    @param.path.string('id') id: string,
     @param.filter(Pedido, {exclude: 'where'}) filter?: FilterExcludingWhere<Pedido>
   ): Promise<Pedido> {
     return this.pedidoRepository.findById(id, filter);
@@ -133,7 +133,7 @@ export class PedidoController {
     },
   })
   async updateById(
-    @param.path.number('id') id: number,
+    @param.path.string('id') id: string,
     @requestBody({
       content: {
         'application/json': {
@@ -154,7 +154,7 @@ export class PedidoController {
     },
   })
   async replaceById(
-    @param.path.number('id') id: number,
+    @param.path.string('id') id: string,
     @requestBody() pedido: Pedido,
   ): Promise<void> {
     await this.pedidoRepository.replaceById(id, pedido);
@@ -167,7 +167,7 @@ export class PedidoController {
       },
     },
   })
-  async deleteById(@param.path.number('id') id: number): Promise<void> {
+  async deleteById(@param.path.string('id') id: string): Promise<void> {
     await this.pedidoRepository.deleteById(id);
   }
 }

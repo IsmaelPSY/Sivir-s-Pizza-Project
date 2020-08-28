@@ -17,6 +17,7 @@ export class Usuario extends Entity {
   @property({
     type: 'string',
     id: true,
+    generated:true,
   })
   idUsuario?: string;
 
