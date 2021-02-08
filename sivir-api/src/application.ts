@@ -17,7 +17,7 @@ export class SivirApiApplication extends BootMixin(
 ) {
   constructor(options: ApplicationConfig = {}) {
     super(options);
-
+    /* asdasd*/
     // Set up the custom sequence
     this.sequence(MySequence);
 
